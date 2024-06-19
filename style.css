@@ -1,15 +1,22 @@
 *{padding: 0;
 margin: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
 
+body{
+  background-color: rgb(150, 191, 207);
+  min-height: 100vh;
+}
 
 header{
-    height: 10vh;
+  min-height: 10vh;
+
 }
 
 
 .navbar {
-    background-color:rgb(250, 83, 111);
+    background-color: rgb(39, 39, 94);
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -22,38 +29,39 @@ header{
   }
   
   .navbar-links {
+    min-height: 20%;
     display: flex;    
    
   }
 
   .navbar-links a{
-    margin-right:15px;
+    margin: 2px;
     padding:10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color:rgb(250, 83, 111);
+    color: rgb(253, 250, 250);
+    background-color: rgb(39, 39, 94);
     cursor: pointer;
     font-size: 20px;
-    border: 4px solid rgb(3, 2, 2);
+    border: 2px solid rgb(243, 242, 242);
     border-radius: 50px ;
   }
 
 
   main{
-    height: 80vh;
- background-color:rgb(223, 175, 208);}
+  min-height: 80vh;
+ background-color: rgb(150, 191, 207);}
 
 
  h1{
-    color: rgb(250, 83, 111);
-    font-size: 40px;
+    color: rgb(39, 39, 94);
+    font-size: 200%;
     margin: 0px;
     text-align:center;}
 
 
  h2{
  
-    color: rgb(250, 83, 111);
+    color:  rgb(39, 39, 94);
     font-size: 25px;
     text-align: center;}
 
@@ -81,8 +89,8 @@ header{
 
          .text p{
             
-                color:  rgb(250, 83, 111);
-                font-size: 30px;
+                color:  rgb(10, 7, 8);
+                font-size: 100%;
                 margin:10px;
          }
         
@@ -94,10 +102,10 @@ header{
 
 
             footer{
-                background-color: rgb(250, 83, 111);
+                background-color:  rgb(39, 39, 94);
                 height: 10vh;
-                font-size: 20px;
-                color:  rgb(3, 1, 1) ;
+                font-size: 100%;
+                color:  rgb(233, 243, 233) ;
                 text-align: center;
                 padding: 30px;
              }
@@ -116,8 +124,8 @@ header{
              .pabaut{ 
               width: 50ch;
               margin: 5px;
-              font-size: 25px;
-              color:rgb(250, 83, 111) ;}
+              font-size: 100%;
+              color:rgb(3, 2, 2) ;}
 
 
 
@@ -135,24 +143,26 @@ header{
 
                 
                 .image32{
-                  width: 400px;
-                  height: 400px;
+                  width: 35vh;
+              
+                  
                
                 }
 
                 .texto2{
                   margin: 10px;
-                  color: rgb(250, 83, 111);
+                  color:rgb(5, 4, 4);
                   justify-content: center;
-                  font-size: 30px;
+                  font-size: 100%;
+                  
                 }
 
                 .datos{
-                  color: rgb(250, 83, 111);
-                  font-size: 30px;
+                  color: rgb(7, 4, 4);
+                  font-size: 100%;
 
                   align-items:center;
-                  margin: 20px;
+                 
                   justify-content:space-around;
                   display: flex;
                   text-align:center;
@@ -174,8 +184,9 @@ header{
                 
                 
                 .tab1{
+                  
                
-                 background-color:   rgb(250, 83, 111);  
+                 background-color:    rgb(39, 39, 94);  
                   color: aliceblue;
                   text-align: center;
                   border-collapse: collapse;
@@ -184,12 +195,11 @@ header{
                 
                   
                 .tab1, td, th,tr{
-                  font-family: Arial, Helvetica, sans-serif;
+                   font-family: Arial, Helvetica, sans-serif;
                   font-size: 20px;
                   padding: 40px;
-                  border: 1px solid rgb(223, 175, 208);
-                  width: 800px;
-                  height: 130px;
+                  border: 1px solid  rgb(244, 247, 245);
+                 
               
                 }
 
@@ -212,7 +222,7 @@ header{
   align-items: center;
   justify-content: space-evenly;
   margin: 20px;
-  border: 1px solid rgb(250, 83, 111);
+  border: 1px solid  rgb(39, 39, 94);
  }
   
 .bf{
@@ -223,25 +233,156 @@ header{
 li{
   width: 20ch;
   font-size: 30px;
-  color:  rgb(250, 83, 111);
+  color:  rgb(39, 39, 94);
 }
 
 .ta{
   font-size:32px ;
-  color: rgb(250, 83, 111);
+  color:  rgb(39, 39, 94)v;
+}
+
+.conf{
+  border: 1px solid  rgb(39, 39, 94);
+  padding: 10px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.t1{display: flex;
+flex-direction: column;
+align-items: flex-start;
+font-size: 20px;
+}
+input.t1{ 
+width: 100%;
+height:30px }
+
+select{
+  width: 100%;
+  height:30px }
+
+.compuesto{
+  
+    padding: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+  
+.maps{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pmaps{
+  font-size: 150%;
+  padding: 10px;
+
+}
+ .m1{
+padding: 5vh;
+ text-align: center;
+  font-size: 100%;
+ }
+
+ iframe{width: 100%;}
+
+@media screen and ( max-width:768px) {
+
+  .content{
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+
+
+  .navbar-links a {
+
+    font-size: 15px;
+    padding: 4px;   
+}
+
+.navbar-links {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+
+display: flex;
+justify-content: space-around;
+
+flex-direction: column-reverse;
+align-items: center;
+}
+
+.banner{
+  
+  height: 150px;
+}
+
+  .image img {
+    width: 30vh;
+    height: 20%;
+    margin: 5px;
+
+
+}
+
+.text p {font-size: 15px;
+
+}
+ .abaut{
+  flex-direction:column;
+  margin: 0;
+  }
+
+.pabaut{
+  font-size: 70%;
 }
 
 
 
+ .datos{
+  flex-direction: column;
+ }
 
-                
-                  
-              
+.bfp{
+  flex-direction: column;
+}
+
+li{font-size: 100%;}
+ 
+.tab1{width: 40vh;
+
+}
+
+.tab1, td, th, tr{ 
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 12px;
+ 
+}
+
+.compuesto {
+padding: 5vh;
+  justify-content: space-around;
+  flex-direction: column;
+ 
+ 
+}
+.pmaps{text-align: center;}
+
+}
 
 
-                
-
-               
 
 
         
